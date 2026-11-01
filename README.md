@@ -5,5 +5,5 @@ Test-only repository for agents-only Software assignments (issue #67 in
 connector-owned fork; nothing here is production code and nothing here holds
 secrets. GitHub Actions is disabled on purpose.
 
-- `src/` is the only path assignments may change.
+- Assignments may change only `src/` and `test/`.
 - Run the tests with `node --test test/`.
